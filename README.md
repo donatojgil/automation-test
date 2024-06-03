@@ -1,7 +1,9 @@
 ********Pre-requisite********
 ------------------------
 python 3
+
 virtualenv
+
 Allure Report: https://allurereport.org/docs/install/
 
 This project uses python3 to run the tests.
@@ -40,6 +42,7 @@ Allure Reports
 Allure report is available for each test run in /report folder. Run in order:
 
 ``pytest --alluredir=./report ./tests/test_ali.py``
+
 ``allure serve ./report``
 
 <a href="https://ibb.co/LvK6VG2"><img src="https://i.ibb.co/Ybg8Hrq/Screenshot-2024-06-03-at-6-42-34-PM.png" alt="Screenshot-2024-06-03-at-6-42-34-PM" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
