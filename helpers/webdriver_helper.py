@@ -13,6 +13,7 @@ class WebDriverHelper:
         # Create a new Chrome session
         service = Service(webdriver_manager.chrome.ChromeDriverManager().install())
         options = webdriver.ChromeOptions()
+        options.add_argument("--disable-notifications")
         driver = webdriver.Chrome(service=service, options=options)
         driver.set_page_load_timeout(180)
         driver.maximize_window()
